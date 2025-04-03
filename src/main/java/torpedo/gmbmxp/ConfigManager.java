@@ -42,7 +42,7 @@ public class ConfigManager {
                 "If a player has 30 levels (which equals 1395 XP) when they die,",
                 "they will drop 976 XP (70% of 1395), which is approximately 25 levels.",
                 "Keep in mind that XP required per level is not linear. Higher levels need more XP."
-        };;
+        };
         public float multiplier = 0.7f;
     }
 }
