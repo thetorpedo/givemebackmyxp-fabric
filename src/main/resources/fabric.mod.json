@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "gmbmxp",
+	"version": "${version}",
+	"name": "Give me back my XP!",
+	"description": "Players drop set % of their XP on death.",
+	"authors": [
+		"torpedo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gmbmxp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"torpedo.gmbmxp.GiveMeBackMyXP"
+		],
+		"client": [
+			"torpedo.gmbmxp.GiveMeBackMyXPClient"
+		]
+	},
+	"mixins": [
+		"gmbmxp.mixins.json",
+		{
+			"config": "gmbmxp.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
