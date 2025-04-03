@@ -7,9 +7,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 
 import net.minecraft.world.GameRules;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 
 
 public class GiveMeBackMyXP implements ModInitializer {
