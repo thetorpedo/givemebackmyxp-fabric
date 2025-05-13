@@ -1,3 +1,5 @@
+Minecraft Mod
+
 Players will drop a set percentage from their XP when they die.
 
 Default is set to 70%. Change on the config file.
